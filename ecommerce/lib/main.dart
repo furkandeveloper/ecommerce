@@ -1,4 +1,5 @@
-import 'package:ecommerce/screens/homeScreen.dart';
+import 'package:ecommerce/screens/productList.dart';
+import 'package:ecommerce/utilities/routes.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,7 +13,8 @@ class Home extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
-      home: HomeScreen()
+      home: ProductList(),
+      routes: Routes.routes,
     );
   }
 
