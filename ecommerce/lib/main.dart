@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/homeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -10,8 +11,8 @@ class Home extends StatelessWidget{
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.blue
-      )
-      home: HomeScreen(),
+      ),
+      home: HomeScreen()
     );
   }
 
